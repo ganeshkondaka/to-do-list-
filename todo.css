@@ -1,0 +1,98 @@
+h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 17px  rgb(255, 255, 255);
+    
+}
+body{
+    background: linear-gradient(to right, rgb(60, 228, 247) 0%, rgb(10, 139, 154) 100%);    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    height: 400px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 280px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 1px 1px 25px 1px black;
+}
+#addlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+textarea{
+    height: 20px;
+    border: none;
+    overflow: auto;
+
+}
+#addbtn{
+    margin-top: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.atask{
+    height: 40px;
+    margin: 10px 0px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 50px;
+    width: 228px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 7px 20px 0px rgb(96, 96, 96);
+}
+
+input[type="checkbox" i]:checked {
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: rgb(92, 225, 92);
+    
+}
+
+
+#addbtn{
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0px 1px 20px 5px rgb(225, 225, 225);
+    position: fixed;
+    bottom: 6px;
+}
+
+#task{
+    height: 30px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px 1px black;
+    position: fixed;
+    bottom: 74px;
+}
+    /* background: linear-gradient(to bottom right, rgb(0, 6, 97) 0%, rgb(0, 0, 0) 100%); */
+    /* box-shadow: 1px 1px 20px 1px black;
+
+
+
+
+
