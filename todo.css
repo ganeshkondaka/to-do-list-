@@ -1,7 +1,7 @@
 h2{
     font-size: 30px;
     color: white;
-    text-shadow: 1px 1px 17px  rgb(255, 255, 255);
+/*     text-shadow: 1px 1px 17px  rgb(255, 255, 255); */
     
 }
 body{
@@ -76,18 +76,18 @@ input[type="checkbox" i]:checked {
     height: 50px;
     width: 50px;
     background-color: rgb(255 255 255);
-    box-shadow: 0px 1px 20px 5px rgb(225, 225, 225);
+/*     box-shadow: 0px 1px 20px 5px rgb(225, 225, 225); */
     position: fixed;
-    bottom: 6px;
+    top: 554px;
 }
 
 #task{
     height: 30px;
     border: 1px solid rgb(212, 212, 212);
     border-radius: 10px;
-    box-shadow: 1px 1px 25px 1px black;
+/*     box-shadow: 1px 1px 25px 1px black; */
     position: fixed;
-    bottom: 74px;
+    top: 507px;
 }
     /* background: linear-gradient(to bottom right, rgb(0, 6, 97) 0%, rgb(0, 0, 0) 100%); */
     /* box-shadow: 1px 1px 20px 1px black;
